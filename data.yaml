@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['beyblade', 'broken beyblade']
+
+roboflow:
+  workspace: frags-workspace
+  project: beyblade-analysis-3lqn2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/frags-workspace/beyblade-analysis-3lqn2/dataset/3
