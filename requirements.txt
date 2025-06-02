@@ -1,0 +1,6 @@
+ultralytics==8.3.146       # For YOLOv11 detection
+opencv-python==4.11.0   # For video processing
+numpy==2.2.6             # Array computations
+pandas==2.2.3             # For saving logs to CSV
+torch>=2.0                # PyTorch backend for YOLO
+

@@ -2,6 +2,8 @@
 
 This project analyzes top-down videos of Beyblade battles using YOLO object detection and BoT-SORT tracking to identify launches, collisions, and winners based on motion analysis.
 
+Example Video Input: [Link Source Video](https://drive.google.com/drive/folders/1EXgGtlmYauc9mDzrxy0B8M3QkyA2JKRZ?usp=sharing)
+
 ---
 
 ## 🚀 Features
@@ -16,22 +18,6 @@ This project analyzes top-down videos of Beyblade battles using YOLO object dete
 - Automatically declares the winner
 - Saves results to CSV
 - Designed for top-down view 1v1 battles
-
----
-
-## 📂 Folder Structure
-project-root/
-├── data/ # (ignored) Raw videos, input files
-├── outputs/ # (ignored) Detection and tracking results
-├── models/ # (ignored) Trained YOLO weights
-├── notebooks/ # Jupyter notebooks (can be ignored in Git)
-├── src/ # Core source code
-│ ├── detector.py
-│ ├── tracker.py
-│ └── analyzer.py
-├── .gitignore
-├── README.md
-└── requirements.txt
 
 ---
 
@@ -50,9 +36,16 @@ project-root/
     ```
 
 3. **Run the script** <br>
-    Run enrich_game_dataset.py in your editor code
+    Run beyblade_tracker.py in your editor code or notebook
+
+    For Notebook
     ```bash
-    python enrich_game_dataset.py
+    analyzer = bt.BeybladeBattleAnalyzer(
+    model_path='./runs/detect/train7/weights/best.pt',
+    video_path='./source video/beyblade battle 1 clean.mov',
+    output_path='./beyblade battle 1 clean tracking.mov'
+    )
+    analyzer.run_analysis()
     ```
 
 ## Output
