@@ -4,6 +4,8 @@ This project analyzes top-down videos of Beyblade battles using YOLO object dete
 
 Example Video Input: [Link Source Video](https://drive.google.com/drive/folders/1EXgGtlmYauc9mDzrxy0B8M3QkyA2JKRZ?usp=sharing)
 
+Example Video Output: [Link Source Video](https://drive.google.com/drive/folders/1hS9j5b7VEfGNih6NgNDgiMAXrnNZeP6u?usp=sharing)
+
 ---
 
 ## 🚀 Features
@@ -49,4 +51,4 @@ Example Video Input: [Link Source Video](https://drive.google.com/drive/folders/
     ```
 
 ## Output
-The output will be a new video analyze by the AI and data summary in CSV file.
+The output will be a new video analyze by the AI and data summary in CSV file called **battle_summary.csv**.
