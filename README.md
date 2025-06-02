@@ -10,7 +10,7 @@ Example Video Output: [Link Source Video](https://drive.google.com/drive/folders
 
 ## 🚀 Features
 
-- Detects Beyblades using YOLO (You Only Look Once)
+- Detects Beyblades using YOLO 11n (You Only Look Once)
 - Tracks multiple objects using BoT-SORT
 - Detects events:
   - Launch detection
